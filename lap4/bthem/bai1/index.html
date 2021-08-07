@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .app{
+        width: 400px;
+        margin: 0 auto;
+    }
+    .ma-bot{
+        margin: 20px 0;
+    }
+    .bor{
+        border: 1px solid blue;
+        border-radius: 2px;
+    }
+    .seperate{
+        width: 100%;
+        height: 3px;
+        background-color: blue;
+    }
+</style>
+<body>
+    <div class="app">
+        <header>
+            <h1>Information Student Form</h1>
+        </header>
+        <div class="seperate">
+
+        </div>
+        <form action="GET">
+            <div class="form-group ma-bot">
+                <label for="fullname">Full Name :</label>
+                <input type="text" name="fullname" class="bor" >
+            </div>
+            <div class="form-group ma-bot">
+                <label for="sex">Sex :</label>
+                <input type="radio" name="male" class="bor">
+                <label for="male">Male</label>
+                <input type="radio" name="female" class="bor">
+                <label for="male">Female</label>
+            </div>
+            <div class="form-group ma-bot">
+                <label for="sex">Language :</label>
+                <input type="checkbox" name="en" class="bor">
+                <label for="male">English</label>
+                <input type="checkbox" name="fran" class="bor">
+                <label for="male">France</label>
+                <input type="checkbox" name="russ" class="bor">
+                <label for="male">Russia</label>
+            </div>
+            <div class="form-group ma-bot">
+                <label for="candidate">Candidate :</label>
+                <select name="candidate" id="candidate" class="bor">
+                    <option value="Student">Student</option>
+                    <option value="Teacher">Teacher</option>
+                    <option value="Doctor">Doctor</option>
+                </select>
+            </div>
+            <div class="form-group ma-bot ">
+                <label for="fullname">Email :</label>
+                <input type="text" name="email"class="bor" >
+            </div>
+            <div class="form-group ma-bot ">
+                <button type="submit" disabled>OK</button>
+                <button type="reset" class="bor">Reset</button>
+            </div>
+        </form>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.app{
+    width: 600px;
+}
+.head{
+    text-align: center;
+    color: #2E912E;
+}
+.space{
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.space-address{
+    display: flex;
+    flex-direction: column;
+}
+#textAddress{
+    width: 300px;
+}
+.border{
+    border: 1px solid #000;
+    padding: 4px;
+}
+.button{
+    border: none;
+    background-color: #D6D3CE;
+    padding: 4px 8px;
+}
+.section-margin{
+    margin: 8px 8px;
+}
+.space-checkbox{
+    display: flex;
+    justify-content: space-around;
+    margin: 8px 0 0 0;
+}
+.space-radio{
+    margin: 0 20px;
+}
+.mar{
+    margin-left: 10px;
+}
+.mar-top{
+    margin: 16px 0;
+}
+.mar-r{
+    margin-right: 10px;
+}
+.bor-s{
+    border: 2px solid;
+    border-color: #000 #ccc #ccc #000;
+}

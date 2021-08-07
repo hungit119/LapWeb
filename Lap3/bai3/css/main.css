@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-family: 'Times New Roman', Times, serif;
+}
+.grid{
+    width: 1000px;
+    margin: 0 auto;
+
+}
+.row{
+    display: flex;
+}
+.column-25{
+    width: 16%;
+}
+.column-mid{
+    width: 66%;
+}
+.header{
+    height: 100px;
+    background-color: #4C7299;
+    width: 980px;
+
+}
+.content-section-letf{
+    height: 500px;
+    background-image: url("/Lap3/bai3/img/bg_menu.gif");
+    display: flex;
+    flex-direction: column;
+}
+.content-section-mid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-color: #CEE7FF;
+}
+.content-section-mid h4{
+    padding: 64px 0;
+    font-size: 25px;
+    font-weight: 300;
+
+}
+.content-section-right{
+    height: 500px;
+}
+.list-nav{
+    list-style: none;
+    float: right;
+    margin-right: 10px;
+}
+.list-nav li{
+    color: #fff;
+    font-weight: 500;
+    padding: 3px 0;
+    text-align: end;
+}
+.list2{
+    margin-top: 32px;
+    list-style: none;
+    float: right;
+    margin-right: 10px;
+}
+.list2 li {
+    color: #fff;
+    font-weight: 500;
+    padding: 3px 0;
+    text-align: end;
+
+}
